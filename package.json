@@ -1,6 +1,6 @@
 {
   "name": "cashin-crypto",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Cashin wallet and api common crypto library",
   "scripts": {
     "build": "tsc --build",

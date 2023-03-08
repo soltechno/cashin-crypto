@@ -23,7 +23,7 @@ export const decrypt = (data: string, privateKey: string) => {
 
 function parseKey(pem: string) {
 	try {
-		let modulus = 0;
+		let modulus = '0';
 		let public_exponent = '0';
 		const reHex = /^\s*(?:[0-9A-Fa-f][0-9A-Fa-f]\s*)+$/;
 		const der = reHex.test(pem) ? Hex.decode(pem) : Base64.unarmor(pem);

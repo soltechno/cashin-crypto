@@ -1,6 +1,6 @@
 {
   "name": "cashin-crypto",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Cashin wallet and api common crypto library",
   "scripts": {
     "build": "tsc --build",
@@ -9,5 +9,7 @@
   "dependencies": {
     "typescript": "^4.9.5"
   },
-  "main": "./src/index"
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": "/dist"
 }

@@ -1,6 +1,13 @@
 {
   "name": "cashin-crypto",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Cashin wallet and api common crypto library",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
   "main": "./src/index.js"
 }

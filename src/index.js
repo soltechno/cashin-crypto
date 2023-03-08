@@ -1,3 +1,3 @@
-import { JSEncrypt } from './JSEncrypt';
-export { JSEncrypt };
-export default JSEncrypt;
+import { JSEncryptRSAKey } from './JSEncryptRSAKey';
+export { JSEncryptRSAKey };
+export default JSEncryptRSAKey;

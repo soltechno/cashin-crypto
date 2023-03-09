@@ -1,17 +1,19 @@
 {
-  "name": "cashin-crypto",
-  "version": "0.6.1",
-  "description": "Cashin wallet and api common crypto library",
-  "scripts": {
-    "build": "tsc --build",
-    "clean": "tsc --build --clean"
-  },
-  "dependencies": {
-    "typescript": "^4.9.5"
-  },
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "/dist"
-  ]
+    "name": "cashin-crypto",
+    "version": "0.6.2",
+    "description": "Cashin wallet and api common crypto library",
+    "scripts": {
+        "build": "tsc --build",
+        "clean": "tsc --build --clean"
+    },
+    "dependencies": {
+        "typescript": "^4.9.5"
+    },
+    "main": "lib/jsencrypt.js",
+    "module": "lib/index.js",
+    "browser": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "/lib"
+    ]
 }
